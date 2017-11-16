@@ -6,6 +6,8 @@ The module lets you authenticate using existing PHP session in your Node.js appl
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
 
+![How](https://raw.githubusercontent.com/ALiangLiang/passport-phpsession-redis/master/README.png)
+
 ## Install
 
 ```bash
