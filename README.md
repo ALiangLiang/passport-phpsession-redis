@@ -25,7 +25,7 @@ passport.use(new PhpsessionRedisStrategy({
       host: '127.0.0.1'
       port: 6379,
       db: 0,
-      prefix: 'PHPSESSID'
+      prefix: 'PHPREDIS_SESSION'
     }
   },
   function(session, done) {
