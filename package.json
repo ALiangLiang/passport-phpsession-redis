@@ -1,0 +1,38 @@
+{
+  "name": "passport-phpsession-redis",
+  "version": "1.0.0",
+  "description": "PHP session in redis authentication strategy for Passport.",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALiangLiang/passport-phpsession-redis.git"
+  },
+  "keywords": [
+    "passport",
+    "php",
+    "session",
+    "redis",
+    "auth",
+    "authn",
+    "authentication"
+  ],
+  "author": "ALiangLiang",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/ALiangLiang/passport-phpsession-redis/issues"
+  },
+  "homepage": "https://github.com/ALiangLiang/passport-phpsession-redis#readme",
+  "dependencies": {
+    "passport-strategy": "^1.0.0",
+    "php-serialization": "0.0.4",
+    "redis": "^2.8.0"
+  }
+}
