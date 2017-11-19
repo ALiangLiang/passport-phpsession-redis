@@ -1,6 +1,6 @@
 {
   "name": "passport-phpsession-redis",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PHP session in redis authentication strategy for Passport.",
   "main": "./lib",
   "scripts": {
@@ -31,9 +31,8 @@
   },
   "homepage": "https://github.com/ALiangLiang/passport-phpsession-redis#readme",
   "dependencies": {
-    "node-php-session-unserialize": "github:ALiangLiang/node-php-session-unserialize",
     "passport-strategy": "^1.0.0",
-    "php-serialization": "0.0.4",
+    "php-session-unserialize": "^0.2.1",
     "redis": "^2.8.0"
   }
 }
